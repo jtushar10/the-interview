@@ -1,0 +1,71 @@
+.date-container{
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid darkgray;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+
+.current-year{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    
+}
+
+.selected-dates{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    margin-top:30px
+}
+
+.start-date, .end-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #cecece;
+    width: 100%;
+    margin: 10px;
+}
+
+.calendar-grid{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-grow: 200;
+    flex-direction: column;
+}
+
+.rows{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-grow: 200;
+    flex-direction: row;
+}
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    flex-grow: 200;
+    height: 20%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: blue;
+}
+
+.start, .end{
+    background-color:orange;
+}
